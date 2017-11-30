@@ -51,7 +51,7 @@ public class Test {
 			//设置http context
 			CloseableHttpClient HttpClient = HttpClients.createDefault();
 			
-			//配置请求参数
+			//配置请求参数8888
 			RequestConfig requestConfig = RequestConfig.custom()
 					.setSocketTimeout(1000)
 					.setConnectTimeout(1000)
